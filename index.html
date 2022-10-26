@@ -1,68 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIB | Biodata</title>
-    <link rel="stylesheet" href="index.css" />
-</head>
-<body>
-    <nav>
-        <img src="https://iili.io/XXHjcl.png" class="logo" style="width: 65px;" />
-            <ul>
-                <li><a href="portofolio.html">Portofolio</a></li>
-                <li><a href="#kontak">Contact Us</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#home">Home</a></li>
-            </ul>
-    </nav>
-    <header>
-        <div class="banner" id="home">
-            <center>
-            <div class="lingkaran"></div>
-            <img src="https://iili.io/LeZUKB.png" class="foto" style="width: 400px;">
-            </center>
-        <h1>Laisa Santika</h1>
-        <p>Mahasiswa | Politeknik Negeri Banyuwangi</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biodata|Laisa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-warning navbar-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">
+          <img src="gambar/my.png" width="45" height="45" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ms-auto" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a class="btn btn-outline-light" href="portofolio.html">Portofolio</a>
+          </form>
         </div>
-    </header>
-    <div class="container"></div>
-    <div class="about" id="about">
-        <p>
-        <h3>About<hr></h3>
-        <p"></p>Nama Saya Laisa Santika, bisa dipanggil Laisa , saya lahir di Banyuwangi tanggal 20 Oktober 2001. tempat tinggal di Banyuwangi.
-        Saat ini saya menempuh pendidikan di Politeknik Negeri Banyuwangi, Jurusan Teknik Informatika, Program Studi Teknologi Rekayasa Perangkat Lunak
-    Hobi saya yaitu memasak dan jalan-jalan. Untuk Sekarang,saya fokus pada studi dan aktivitas organisasi menggali segala potensi yang ada pada diri saya.
-        </p>
-    </p>
+      </div>
+    </nav>
+    <div id="hero" class="d-flex flex-column align-items-center justify-content-center">
+      <img src="gambar/laisa1.png" class="image-hero rounded-circle" />
+      <h1 class="name fw-bold">Laisa Santika</h1>
+      <p class="subtitle">Mahasiswa | Politeknik Negeri Banyuwangi</p>
+      <i class="bi bi-arrow-down-circle-fill"></i>
     </div>
-    <div class="skill" id="skill">
-        <h3 style="text-align: center;">Skill<hr></h3>
-        <ol>
-            <li>Mengoprasikan Ms.Ofiice</li>
-            <li>HTML,CSS</li>
-            <li>Design (Canva,Corel,dll)</li>
-            <li>Sosial Media Marketing</li>
-        </ol>
-    </div>
-    <div class="riwayat" id="education">
-        <h3 style="text-align: center;">Education<hr></h3>
-        <ul>
-            <li><b>2008-2014</b> <br>MI Darunnajah II</li>
-            <li><b>2014-2017</b> <br>MTS Negeri 1 Banyuwangi</li>
-            <li><b>2017-2020 </b><br>SMK Negeri 1 Banyuwangi</li>
-            <li><b>2020-Sekarang</b> <br>Politeknik Negeri Banyuwangi</li>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="title"></h2>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>
+              <img src="gambar/laisa2.png" id="gambar-about" class="shadow rounded w-100" alt="" />
+            </p>
+          </div>
+          <div class="col-6">
+            <div class="text-about">
+              <p class="text-about">
+                Hallo.. perkenalkan nama saya Laisa Santika, Saya saat ini berumur 21 tahun. saya lulusan SMK Negeri 1 Banyuwangi Jurusan Rekayasa Prankat Lunak tahun 2022, saat SMK saya pernah melaksanakan Magang atau biasa dinamakan
+                Praktik Kerja Lapangan (PKL) selama 5 bulan disebuah perusahaan di Banyuwangi yaitu CV.Tiga Mulia Abadi, Pada saat itu perusahaan memiliki 3 bidang usaha diantaranya Backpacker, Tour Banyuwangi dan Digital Marketing
+                Communication (DIGIMARCOM), dan kebetulan saya ditempatkan di bidang DIGIMARCOM. Disana saya membantu perusahaan dalam mengelola website, menjadi admin sosmed, membuat design untuk bahan promosi dan sebagainya. Kemudian saya
+                melanjutkan pendidikan saya di Politeknik Negeri Banyuwangi Jurusan D-IV Teknik Informatika, Program Studi Teknologi Rekayasa Perangkat Lunak. Saat ini saya fokus menempuh pendidikan saja, disamping itu untuk mengisi waktu
+                luang saya mengikuti Organisasi Internal Kampus maupun Eksternal Kampus yang bertujuan untuk menambah wawasan dan meningkatkan soft skill dan hard skill saya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <div class="row">
+          <h2 class="title"></h2>
+          <div class="row">
+            <div class="col-6 ml-5">
+              <ul>
+                <li>
+                  <span>2008-2014</span>
+                  <p><b>MI Darunnajah II</b></p>
+                </li>
+                <li>
+                  <span>2014-2017</span>
+                  <p><b>MTs Negeri 1 Banyuwangi</b></p>
+                </li>
+                <li>
+                  <span>2017-2020 | Rekayasa Perangkat Lunak</span>
+                  <p><b>SMK Negeri 1 Banyuwangi</b></p>
+                </li>
+                <li>
+                  <span>2020-Sekarang | D4 - Teknik Informatika</span>
+                  <p><b>Politeknik Negeri Banyuwangi</b></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <span>2017-2020 | Laskar Hijau</span>
+                  <p><b>SMK Negeri 1 Banyuwangi</b></p>
+                </li>
+                <li>
+                  <span>2018 | Praktik Kerja Lapangan</span>
+                  <p><b>CV.Tiga Mulia Abadi</b></p>
+                </li>
+                <li>
+                  <span>2020-Sekarang | Himpunan Mahasiswa TI</span>
+                  <p><b>Politeknik Negeri Banyuwangi</b></p>
+                </li>
+                <li>
+                  <span>2019-Sekarang | Fatayat Nahdlotul Ulama</span>
+                  <p><b>Ranting Tukangkayu</b></p>
+                </li>
+                <li>
+                  <span>2022 | Junior Web Developer</span>
+                  <p><b>Vocational School Graduate Academy(VSGA)</b></p>
+                </li>
+                <li>
+                  <span>2022 | Sertifikasi Komputer</span>
+                  <p><b>Vocational School Graduate Academy(VSGA)</b></p>
+                </li>
+                <li>
+                  <span>2022 | Studi Independen Bersertifikat-SEAL</span>
+                  <p><b>Kampus Merdeka</b></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skill container w-50 mb-5" id="skill">
+      <h2 class="title"></h2>
+      <div class="progress mb-3" style="height: 15px">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Design</div>
+      </div>
+      <div class="progress mb-3" style="height: 15px">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+      </div>
+      <div class="progress mb-3" style="height: 15px">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+      </div>
+      <div class="progress mb-3" style="height: 15px">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">PHP</div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="title"></h2>
+      <div class="container">
+        <div class="row">
+          <form class="col-6 mx-auto">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Laisa" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Masukkan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-success w-100">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap" /></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/laisasantika20"> <i class="bi bi-github"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.instagram.com/laisantika"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/laisa.santika.7"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://wa.me/6282237523179"><i class="bi bi-whatsapp"></i></a>
+          </li>
         </ul>
+      </footer>
     </div>
-      <footer class="footer">
-    <h3 id="kontak">Contact Person <hr></h3>
-    <a href="https://www.instagram.com/laisantika">Instagram</a> |
-    <a href="https://www.facebook.com/laisa.santika.7">Facebook</a> | 
-    <a href="https://wa.me/6282237523179">Whatsapp</a> |
-    <a href="portofolio.html">Portofolio</a> |</p>
-</footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>

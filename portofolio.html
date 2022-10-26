@@ -1,142 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="portofolio.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio | Laisa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <nav>
-      <img src="https://iili.io/XXHjcl.png" class="logo" style="width: 65px;" />
-          <ul>
-              <li><a href="index.html">About me</a></li>
-              <li><a href="#kontak">Contact Us</a></li>
-              <li><a href="#katalog">Portofolio</a></li>
-              <li><a href="#pengalaman">Pengalaman</a></li>
-              <li><a href="#pengunjung">Pengunjung</a></li>
+  <body class="body">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#banner">
+          <img src="gambar/my.png" width="45" height="45" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ms-auto" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
-  </nav>
-    <div class="formku">
-      <br>
-      <h3 style="text-align: center" id="pengunjung">FORM PENGUNJUNG<hr></h3>
-    <form>
-      <p>
-        <label>Nama :</label>
-        <input type="text" name="nama" placeholder="Masukkan nama anda" />
-      <p>
-      <p>
-        <label>Tempat Lahir :</label>
-        <input type="text" name="tmptlhr" placeholder="Masukkan tempat lahir"/>
-      </p>
-      <p>
-        <label>Tanggal lahir :</label>
-        <input type="date" name="tgllhr" placeholder="Masukkan nama anda" />
-      <p>
-      <p>
-        <label>Jenis Kelamin :</label>
-        <input type="radio" name="Kelompok" id="perempuan" />
-        <label for="perempuan">P</label>
-        <input type="radio" name="Kelompok" id="laki-laki" />
-        <label for="laki-laki">L</label>
-    </p>
-    </p>
-      <p>
-        <label>Agama :</label>
-        <select name="cars" id="cars">
-          <option value="islam">Islam</option>
-          <option value="hindu">Hindu</option>
-          <option value="budha">Budha</option>
-          <option value="katolik">Katolik</option>
-          <option value="khonghucu">Khonghucu</option>
-        </select>
-      </p>
-      <div style="margin-top: 20px">
-        <input type="submit" value="Kirim" />
-        <input type="reset" value="Reset" />
+          <form class="d-flex">
+            <a class="btn btn-outline-light" href="index.html">About Me</a>
+          </form>
+        </div>
       </div>
-      <br>
-    </form>
+    </nav>
+    <div id="banner" class="d-flex flex-column align-items-center justify-content-center">
+      <img src="gambar/laisa3.png" class="image-hero rounded-circle" />
+      <h1 class="name fw-bold" style="color: white">Hello Guys !!</h1>
+      <p class="subtitle" style="color: white">WELCOME TO MY PORTOFOLIO</p>
+      <i class="bi bi-arrow-down" style="color: white"></i>
+    </div>
+    <section class="galeri mt-5 mb-5" id="galeri">
+      <div class="container">
+        <h2 class="title"></h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Foto-foto aja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">liat tu bawah jembatan ada kerang bang.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">eh balonnya mo lepas wkwkwk.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20211214-WA0060.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Dokumentasi setelah kegiatan wawancara calon pengurus HIMA Teknik Informatika 2021-2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20210918-WA0101.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Refreshing setelah kegiatan PHP (Pengenalan Harian Prodi) 2021.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20201204-WA0060.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Malam apresiasi mahasiswa berprestasi jurusan Teknik Informatika dan Penutupan PHP (Pengenalan Harian Prodi).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20210130-WA0015.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Kegiatan bersih-bersih lingkungan Jurusan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20220612-WA0026.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Acara liburan dan pisah sambut Ketua Fatayat PAC NU Tukangkayu.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/IMG-20220612-WA0054.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">Acara liburan dan pisah sambut Ketua Fatayat PAC NU Tukangkayu.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project mt-5 mb-5" id="project">
+      <div class="container">
+        <h2 class="title"></h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/logoku.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Logo</h5>
+                <p class="card-text">Pembuatan Logo menggunakan JS Canvas</p>
+                <a href="https://codepen.io/LaisaSantika/pen/XWzqqWB" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/logoku2.png" class="card-img-top" style="height: 290px" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Logo</h5>
+                <p class="card-text">Pembuatan Logo menggunakan JS Canvas</p>
+                <a href="https://codepen.io/LaisaSantika/pen/QWOVWLJ" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/doraemon.png" class="card-img-top" style="height: 290px" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Animasi</h5>
+                <p class="card-text">Pembuatan Animasi 2 Dimensi JS Canvas</p>
+                <a href="https://codepen.io/LaisaSantika/pen/JjOxONx" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="https://iili.io/X6024e.png" class="card-img-top" style="height: 260px" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Limas Segitiga</h5>
+                <p class="card-text">Pembuatan Object 3 Dimensi Material JS Canvas</p>
+                <a href="https://codepen.io/LaisaSantika/pen/RwjdZKo" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/bakso.jpg" class="card-img-top" style="height: 280px" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Banner Mini</h5>
+                <p class="card-text">Pembuatan Banner Rombong</p>
+                <a href="#" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="gambar/idcard.png" class="card-img-top" style="height: 290px" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ID Card</h5>
+                <p class="card-text">Pembuatan ID Card Peserta Lomba</p>
+                <a href="#" class="btn btn-primary">Go Project ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="title"></h2>
+      <div class="container">
+        <div class="row">
+          <form class="col-6 mx-auto">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Laisa" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Masukkan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-success w-100">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap" /></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+        </div>
 
-  </div>
-    <div class="table">
-      <br>
-      <h3 style="text-align: center" id="pengalaman">PENGALAMAN<hr></h3>
-<table border="2">
-    <tr>
-      <th>No</th>
-      <th>Pengalaman</th>
-      <th>Bidang</th>    
-      <th>Jabatan</th>
-      <th>Tahun</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Praktik Kerja Lapangan</td>
-      <td>Digital Marketing Comunication</td>
-      <td>Anggota</td>
-      <td>2018</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Organisasi - Laskar Hijau</td>
-      <td>Divisi Satpol Kebersihan</td>
-      <td>CO</td>
-      <td>2017-2019</td>
-  </tr>
-    <tr>
-        <td>3</td>
-        <td>Organisasi - Himpunan Mahasiswa Teknik Informatika</td>
-        <td>Divisi Software Development</td>
-        <td>Staf</td>
-        <td>2020-sekarang</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Organisasi - Fatayat Nahdlotul Ulama'</td>
-      <td>-</td>
-      <td>Anggota</td>
-      <td>2019-sekarang</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>VSGA</td>
-      <td>Junior Web Development</td>
-      <td>Peserta</td>
-      <td>2022</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>SIB</td>
-      <td>SEAL</td>
-      <td>Peserta</td>
-      <td>2022</td>
-    </tr>
-</table>
-<br>
-</div>
-<div class="katalog" id="katalog">
-  <br>
-  <h3 style="text-align: center">GALERI | PORTOFOLIO<hr></h3>
-  <p>
-  <a href="https://codepen.io/LaisaSantika/pen/RwjdZKo"><img src="https://iili.io/XXHjcl.png" style="width: 350px; height: 350px;"></a>
-  <a href="https://codepen.io/LaisaSantika/pen/JjOxONx"><img src="https://iili.io/X6cBcb.png" style="width: 300px; height: 300px;"></a>
-  <a href="https://codepen.io/LaisaSantika/pen/RwjdZKo"><img src="https://iili.io/X6024e.png" style="width: 300px; height: 300px;"></a>
-  </p>
-  <p>
-    <a href="https://codepen.io/LaisaSantika/pen/QWOVWLJ"><center><img src="https://iili.io/L2PJKN.png" style="width: 750px; height: 300px; text-align: center;"></a></center>
-  </p>
-  <br>
-</div>
-<div class="footer" style="color: white;" id="kontak">
-  <br>
-<h3 style="text-align: center;" id="kontak">Contact Person<hr></h3>
-<a href="https://www.instagram.com/laisantika">Instagram</a> |
-<a href="https://www.facebook.com/laisa.santika.7">Facebook</a> | 
-<a href="https://wa.me/6282237523179">Whatsapp</a> |
-<a href="portofolio.html">Portofolio</a> |</p>
-<br>
-</div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/laisasantika20"> <i class="bi bi-github"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.instagram.com/laisantika"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/laisa.santika.7"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://wa.me/6282237523179"><i class="bi bi-whatsapp"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

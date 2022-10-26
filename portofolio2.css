@@ -1,15 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("https://iili.io/Q2JdDF.png");
+  /* background-image: url("https://iili.io/Q2JdDF.png"); */
 }
+/* margin: 0 auto; */
+
 h3 {
   color: white;
   height: 35px;
 }
 nav {
-  width: 1000px;
-  margin: 0 auto;
   text-align: center;
   font-family: arial;
   background: #009999;
@@ -21,7 +21,6 @@ nav ul {
   list-style: none;
   position: relative;
   display: inline-table;
-  margin: 0 auto;
 }
 
 nav ul li {
@@ -39,31 +38,23 @@ nav ul li a {
   text-decoration: none;
 }
 form {
-  margin: 0 auto;
   margin-left: 100px;
+  margin-left: 20%;
 }
 .formku {
-  width: 1000px;
-  margin: 0 auto;
   background: #2baaaa;
 }
 table {
-  margin: 0 auto;
   width: 800px;
+  margin-left: 20%;
 }
 .table {
-  width: 1000px;
-  margin: 0 auto;
   background-color: #59c2c2;
 }
 .katalog {
-  width: 1000px;
-  margin: 0 auto;
   background: #81cfcf;
 }
 .footer {
-  width: 1000px;
-  margin: 0 auto;
   background-color: rgb(140, 223, 223);
   text-align: center;
 }

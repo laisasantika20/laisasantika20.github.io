@@ -1,0 +1,220 @@
+body {
+  font-family: "raleway", sans-serif;
+}
+#hero {
+  background: rgb(240, 232, 162);
+  height: 100vh;
+}
+.nav-link {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "raleway", sans-serif;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #ce7f09;
+}
+.image-hero {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.title {
+  font-family: "raleway", sans-serif;
+}
+.subtitle {
+  letter-spacing: 6px;
+}
+.education,
+.about,
+.skill,
+.galeri,
+.project,
+.contact {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  margin: 0 auto;
+  padding-top: 38px;
+}
+.about .title,
+.education .title,
+.skill .title,
+.contact .title,
+.galeri .title,
+.project .title {
+  font-family: "raleway", sans-serif;
+  position: relative;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  margin-top: 3rem;
+}
+.about .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.about .title::after {
+  content: "About";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+.text-about {
+  text-indent: 10px;
+  text-align: justify;
+  font-family: "raleway", sans-serif;
+}
+#gambar-about {
+  width: 450px;
+}
+.education .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.education .title::after {
+  content: "Education";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+/* skills section styling */
+.skill .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.skill .title::after {
+  content: "Skill";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+/* end skill */
+.contact .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.contact .title::after {
+  content: "Contact";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+.contact .title {
+  font-family: "raleway", sans-serif;
+  position: relative;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+  margin-top: 3rem;
+}
+
+/* style portofolio */
+#banner {
+  background: rgb(106, 152, 209);
+  height: 100vh;
+}
+.nav-link {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "raleway", sans-serif;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #03095e;
+}
+.galeri .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.galeri .title::after {
+  content: "Galeri";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+.project .title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34495e;
+  transform: translate(-50%);
+}
+.project .title::after {
+  content: "Project";
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  color: #34495e;
+  padding: 5px;
+  background: rgb(240, 232, 162);
+  transform: translate(-50%);
+}
+.card-text {
+  font-size: 12px;
+}
+.card-title {
+  text-align: center;
+}
